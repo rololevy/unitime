@@ -12,7 +12,7 @@ import {
 } from "@/lib/validation/waitlist";
 
 import { submitWaitlist } from "../actions";
-import { TurnstileWidget } from "./turnstile-widget";
+import { TurnstileWidget } from "@/components/turnstile-widget";
 
 const TURNSTILE_SITE_KEY = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
 
